@@ -9,7 +9,7 @@ background-color: gray
 head{
 display: flex;
 background-color: aqua;
-
+justify-content: space-between;
 
 }
 

@@ -1,32 +1,31 @@
 body{
 
-background-color: gray 
-
-
-
-}
- 
-head{
-display: flex;
-background-color: aqua;
-justify-content: space-between;
-padding: 20px;
-}
-.class_menuintem{
-
-display: inline;
-text-transform: uppercase;
-margin-left: 20pxs;
+    background-color: rgb(183, 176, 176);/*coloca uma cor de fundo*/
 
 }
 
-.cabecalho_imagem{
+.cabecalho{
+    display: flex;/*muda a disposição do elementos para horizontal*/
+    align-items: center;
+    justify-content: space-between;
+}
 
+.cabecalho-imagem{
 width: 200px;
 height: 200px;
 border-radius: 50%;
+padding: 20px;
 
 }
+
+.cabecalho-menu-listaitem{
+
+    display: inline;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+
 
 
 
